@@ -5,7 +5,61 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   background-color: #130c0c;
-  color: #333;
+  color: #ffffff;
 }
+
+/* -------------------------------header------------------------------ */
+.header {
+  background-color: #130c0c;
+  padding: 0px 20px;
+  margin: 0 86px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 52px;
+}
+
+.cursor-icon {
+  width: 100px;
+  height: auto;
+}
+
+.header-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.header-nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.header-cta a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 1;
+  padding: 5.6px 10.5px 5.88px;
+  border: 0.8px solid #2e2d2d;
+  border-radius: 16px;
+  text-decoration: none;
+}
+
+.header-cta .btn-sign {
+  color: #ffffff;
+}
+
+.header-cta .btn-download {
+  background-color: #ffffff;
+}
+
+/* -------------------------------main------------------------------ */
