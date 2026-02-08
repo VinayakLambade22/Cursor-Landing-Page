@@ -10,24 +10,30 @@ body {
   color: #ffffff;
 }
 
-/* -------------------------------header------------------------------ */
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
 .header {
   background-color: #130c0c;
-  padding: 0px 20px;
-  margin: 0 86px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
   height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .cursor-icon {
   width: 100px;
-  height: auto;
 }
 
 .header-nav ul {
@@ -36,30 +42,85 @@ body {
   gap: 30px;
 }
 
-.header-nav ul li a {
+.header-nav a {
   text-decoration: none;
   color: #ffffff;
   font-size: 14px;
+  font-weight: 500;
+}
+
+.header-cta {
+  display: flex;
+  gap: 10px;
 }
 
 .header-cta a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
-  line-height: 1;
-  padding: 5.6px 10.5px 5.88px;
-  border: 0.8px solid #2e2d2d;
+  font-size: 13px;
+  padding: 6px 12px;
+  border: 1px solid #2e2d2d;
   border-radius: 16px;
   text-decoration: none;
 }
 
-.header-cta .btn-sign {
+.btn-sign {
   color: #ffffff;
 }
 
-.header-cta .btn-download {
+.btn-download {
   background-color: #ffffff;
+  color: #130c0c;
+  font-weight: 500;
+  border-radius: 20px;
 }
 
-/* -------------------------------main------------------------------ */
+.hero-section {
+  padding-top: 140px;
+  padding-bottom: 100px;
+}
+
+.hero-text {
+  max-width: 720px;
+}
+
+.hero-heading {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.25;
+  margin-bottom: 28px;
+  opacity: 0.9;
+}
+
+.hero-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.hero-image {
+  position: relative;
+  margin-top: 80px;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 680px;
+  display: block;
+  border-radius: 10px;
+}
+
+.hero-image .agent-img {
+  position: absolute;
+  top: 40px;
+  right: 125px;
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
