@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  max-width: 1320px;
+  max-width: 1360px;
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -151,4 +151,42 @@ body {
 
 .trusted-logos img {
   height: 3rem;
+}
+
+.container-section2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 80px;
+  padding: 2rem;
+  background-color: rgb(27, 25, 19);
+  border-radius: 10px;
+}
+
+.section2-image img {
+  height: 680px;
+  width: 840px;
+}
+
+.section2-content h2 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  opacity: 0.9;
+}
+
+.section2-content p {
+  font-size: 22px;
+  line-height: 28.6px;
+  opacity: 0.6;
+}
+
+.section2-content a {
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  text-decoration: none;
+  color: #f54e00;
+  margin-top: 14.9333px;
 }
