@@ -6,7 +6,7 @@
 
 body {
   font-family: "Inter", Arial, Helvetica, sans-serif;
-  background-color: #130c0c;
+  background-color: rgb(20, 18, 11);
   color: #ffffff;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 .header {
-  background-color: #130c0c;
+  background-color: rgb(20, 18, 11);
   position: fixed;
   top: 0;
   left: 0;
@@ -78,7 +78,7 @@ body {
 
 .hero-section {
   padding-top: 140px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 
 .hero-text {
@@ -191,50 +191,105 @@ body {
   margin-top: 14.9333px;
 }
 
-.feature-header {
+.testimonials-header {
   font-size: 22px;
   font-weight: 500;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 8rem;
   opacity: 0.9;
 }
 
-.feature-cards {
+.testimonials-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   margin-top: 3rem;
 }
 
-.feature-card {
+.testimonials-card {
   background-color: rgb(27, 25, 19);
   padding: 1rem;
   border-radius: 5px;
-  border: 1px solid #2e2d2d;
+  border: 1px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.feature-card p {
+
+.testimonials-card p {
   font-size: 16px;
   line-height: 22.4px;
 }
 
-.feature-card-avatar {
+.testimonials-card-avatar {
   display: flex;
   gap: 15px;
   margin-top: 2.5rem;
   opacity: 0.9;
 }
 
-.feature-card-avatar span {
+.testimonials-card-avatar span {
   font-size: 14px;
   line-height: 19.6px;
   opacity: 0.6;
 }
 
-.feature-card-avatar img {
+.testimonials-card-avatar img {
   width: 40px;
   height: 40px;
+  border-radius: 5px;
+}
+
+.story-header {
+  margin-top: 8rem;
+}
+
+.story-header h2 {
+  font-size: 26px;
+  opacity: 0.9;
+}
+
+.story-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+.story-card {
+  background-color: rgb(27, 25, 19);
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.story-card h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  opacity: 0.9;
+}
+.story-card div {
+  font-size: 16px;
+  line-height: 22.4px;
+  opacity: 0.6;
+}
+
+.story-card-link {
+  margin-top: 14.9333px;
+}
+
+.story-card-link a {
+  text-decoration: none;
+  color: #f54e00;
+  font-size: 16px;
+}
+
+.story-card img {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
   border-radius: 5px;
 }
