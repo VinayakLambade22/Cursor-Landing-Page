@@ -293,3 +293,64 @@ body {
   margin-top: 2rem;
   border-radius: 5px;
 }
+
+.changelog-header {
+  margin-top: 8rem;
+}
+
+.changelog-header h2 {
+  font-size: 26px;
+  opacity: 0.9;
+}
+
+.changelog-articles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+.latest-article {
+  background-color: rgb(27, 25, 19);
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.date-content {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.date-content span {
+  font-size: 14px;
+  border: 1px solid #949390;
+  color: #949390;
+  padding: 2px 10px;
+  border-radius: 30px;
+  opacity: 0.9;
+}
+
+.date {
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.article-content p {
+  font-size: 16px;
+  line-height: 22.4px;
+  opacity: 0.9;
+  margin-top: 1rem;
+}
+.changelog-link a {
+  text-decoration: none;
+  color: #f54e00;
+  font-size: 16px;
+  margin-top: 16px;
+  display: inline-flex;
+  align-items: center;
+}
